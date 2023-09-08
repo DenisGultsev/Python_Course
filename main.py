@@ -1,16 +1,16 @@
-﻿"""
-n = 5
-print(type(n)) 
+﻿
+# n = 5
+# print(type(n))
 
-n = 'fddf'
-print(type(n))
+# n = 'fddf'
+# print(type(n))
 
-n = 'fd\'df'
-print(n)
+# n = 'fd\'df'
+# print(n)
 
-n = 'fd"gbgfb"df'
-print(n)
-"""
+# n = 'fd"gbgfb"df'
+# print(n)
+
 
 # a = 5
 # b = 5.89
@@ -67,5 +67,19 @@ print(n)
 # b = 6.556551
 # print(round(a*b, 3))
 
-name = input("Введите ваше имя: ")  # Запрашивает у пользователя ввод имени
-print("Привет, ", name)             # Выводит приветствие с введенным именем
+# name = input("Введите ваше имя: ")  # Запрашивает у пользователя ввод имени
+# print("Привет, ", name)             # Выводит приветствие с введенным именем
+
+# name = "John"
+# age = 25
+# print(f"My name is {name} and I am {age} years old.")
+
+username = input('Введите имя: ')
+if username == 'Маша':
+    print('Ура, это же МАША!')
+elif username == 'Марина':
+    print('Я так ждала вас, Марина!')
+elif username == 'Ильнар':
+    print('Ильнар - топ!')
+else:
+    print('Привет, ' + username)
