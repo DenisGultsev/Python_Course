@@ -133,9 +133,43 @@
 # for i in a:
 #     print(i)
 
-line = ""
-for i in range(5):
-    line = ""
-    for j in range(5):
-        line += "*"
-    print(line)
+# line = ""
+# for i in range(5):
+#     line = ""
+#     for j in range(5):
+#         line += "*"
+#     print(line)
+
+# Строки
+
+# text = 'СъЕШЬ еще этих МяГкИх французских булок'
+# print(len(text))
+# print('еще' in text)
+# print(text.lower())
+# print(text.upper())
+# print(text.replace('еще', 'ЕЩЕ'))
+
+text = 'съешь еще этих мягких французских булок'
+# print(text[0])
+# print(text[1])
+# print(text[len(text) - 1])
+# print(text[-1])
+# print(text[-5])
+# print(text[:])
+# print(text[:2])
+# print(text[len(text) - 2:])
+# print(text[2:9])
+# print(text[6:-18])
+# print(text[0:len(text):6])
+# print(text[::6])
+# text = text[2:9] + text[-5] + text[:2]
+# print(text)
+
+n = 6
+
+petia = n // 4
+sergei = petia
+katia = 2 * (petia + sergei)
+
+result = f"{petia} {katia} {sergei}"
+print(result)
