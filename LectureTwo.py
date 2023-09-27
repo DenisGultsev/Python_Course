@@ -152,7 +152,112 @@
 # list_1 = [exp for item in iterable if conditional]
 # print(list_1)
 
-list_1 = []
-for i in range(1, 101):
-    list_1.append(i)
-print(list_1)  # [1, 2, 3, ..., 100]
+# list_1 = []
+# for i in range(1, 101):
+#     list_1.append(i)
+# print(list_1)  # [1, 2, 3, ..., 100]
+
+# Задача: Создать список, состоящий из четных чисел в диапазоне от 1 до 100.
+
+# Перечислить все числа от 1 до 100
+
+# list_1 = []
+# for i in range(1, 101):
+#     list_1.append(i)
+# print(list_1)  # [1, 2, 3, ..., 100]
+
+# можно записать и так:
+
+# list_1 = []
+# for i in range(1, 101):
+#     list_1 = [i for i in range(1, 101)]
+# print(list_1)  # [1, 2, 3, ..., 100]
+
+#  Добавить условие (только чётные числа)
+
+# list_1 = []
+# for i in range(1, 101):
+#     list_1 = [i for i in range(1, 101) if i % 2 == 0]
+# print(list_1)  # [1, 2, 3, ..., 100]
+
+# Создание кортежей
+
+# list_1 = []
+# for i in range(1, 101):
+#     list_1 = [(i, i) for i in range(1, 101) if i % 2 == 0]
+# print(list_1)  # [1, 2, 3, ..., 100]
+
+# Умножаем числа списка на 2
+
+# list_1 = []
+# for i in range(1, 101):
+#     list_1 = [i * 2 for i in range(10) if i % 2 == 0]
+# print(list_1)  # [1, 2, 3, ..., 100]
+
+# SyntaxError(Синтаксическая ошибка)
+
+# number_first = 5
+# number_second = 7
+# if number_first > number_second # !!!!!
+# print(number_first)
+
+#  IndentationError(Ошибка отступов)
+
+# number_first = 5
+# number_second = 7
+# if number_first > number_second:
+# print(number_first) # !!!!!
+
+# number_first = 5
+# number_second = 7
+# if number_first > number_second:
+#     print(number_first)  # Добавлен правильный отступ
+
+# TypeError(Типовая ошибка)
+
+# text = 'Python'
+# number = 5
+# print(text + number)
+
+# text = 'Python'
+# number = 5
+# print(text + str(number))  # Преобразовано число в строку перед конкатенацией
+
+# ZeroDivisionError(Деление на 0)
+
+# number_first = 5
+# number_second = 0
+# print(number_first // number_second)
+
+# number_first = 5
+# number_second = 0
+
+# if number_second != 0:
+#     print(number_first // number_second)
+# else:
+#     print("Ошибка: деление на ноль")
+
+# KeyError(Ошибка ключа)
+
+# dictionary = {1: 'Monday', 2: 'Tuesday'}
+# print(dictionary[3])
+
+# dictionary = {1: 'Monday', 2: 'Tuesday'}
+# # Использован метод get() для получения значения по ключу
+# print(dictionary.get(3, 'Key not found'))
+
+# NameError(Ошибка имени переменной)
+
+# name = 'Ivan'
+# print(names)
+
+# name = 'Ivan'
+# print(name)  # Исправлено имя переменной на 'name'
+
+# ValueError(Ошибка значения)
+
+# text = 'Python'
+# print(int(text))
+
+# text = 'Python'
+# print(text)  # Исправлено преобразование строки в целое число
