@@ -128,3 +128,14 @@
 # nums = [38, 27, 43, 3, 9, 82, 10]
 # merge_sort(nums)
 # print(nums)
+
+# def sum(a, b):
+#     if b == 0:
+#         return a
+#     else:
+#         return sum(a + 1, b - 1)
+
+
+# a = 3
+# b = 5
+# print(sum(a, b))
