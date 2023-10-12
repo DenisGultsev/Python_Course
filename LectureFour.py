@@ -112,3 +112,10 @@
 # salary = [111, 222, 333]
 # data = list(zip(users, ids, salary))
 # print(data)  # [('user1', 4, 111), ('user2', 5, 222), ('user3', 333)]
+
+# Функция enumerate
+
+# users = ['Казань', 'Смоленск', 'Хабаровск', 'Москва']
+# data = list(enumerate(users))
+
+# print(data)
