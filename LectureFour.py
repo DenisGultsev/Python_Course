@@ -75,12 +75,26 @@
 # data = list(map(int, data.split()))
 # print(data)
 
-def where(f, col):
-    return [x for x in col if f(x)]
+# def where(f, col):
+#     return [x for x in col if f(x)]
 
+
+# data = '1 2 3 5 8 15 23 38'.split()
+# res = map(int, data)
+# res = where(lambda x: x % 2 == 0, res)
+# res = list(map(lambda x: (x, x ** 2), res))
+# print(res)
+
+# Функция filter
+
+# data = [x for x in range(10)]
+# res = list(filter(lambda x: x % 2 == 0, data))
+# print(res)  # [0, 2, 4, 6, 8]
+
+# filter() позволит избавиться от функции where, которую мы писали ранее
 
 data = '1 2 3 5 8 15 23 38'.split()
 res = map(int, data)
-res = where(lambda x: x % 2 == 0, res)
+res = filter(lambda x: x % 2 == 0, res)
 res = list(map(lambda x: (x, x ** 2), res))
 print(res)
