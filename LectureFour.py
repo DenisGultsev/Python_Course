@@ -120,9 +120,9 @@
 
 # print(data)
 
-# colors = ['red', 'green', 'blue']
+# list = ['Одуванчик', 'Ромашка', 'Жасмин']
 # data = open('file.txt', 'a')
-# data.writelines(colors)
+# data.write('\n'.join(list))
 # data.close()
 
 # path = 'file.txt'
@@ -135,3 +135,17 @@
 # data = open('file.txt', 'w')
 # data.writelines(colors)  # разделителей не будет
 # data.close()
+
+# import os
+
+# os.chdir('E:\GeekBrains\SoftwareDeveloper\Python_Lectures\LectureFour.py')
+
+
+# print(os.getswd())
+# print(os.path.basename('E:\GeekBrains\SoftwareDeveloper\Python_Lectures\LectureOne.py'))
+
+# print(os.path.abspath('LectureOne.py'))
+
+import shutil
+
+shutil.copy('file1.txt', 'file.txt')
