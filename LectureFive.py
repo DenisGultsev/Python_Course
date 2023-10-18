@@ -15,6 +15,7 @@
 # # Отображение графика
 # plt.show()
 
+
 # def find_median(nums):
 #     nums.sort()
 #     n = len(nums)
@@ -45,5 +46,3 @@
 # print("Среднее значение:", mean)
 # print("Медиана:", median)
 # print("Стандартное отклонение:", std)
-
-import pandas as pd
